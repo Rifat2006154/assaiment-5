@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            cli: '#F4F7FF',
+            
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class="">
+    <header class="rounded-lg shadow-lg container bg-cli mx-auto">
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="flex-1">
+                <div class="flex">
+                    <img class="w-8" src="assets/logo.png" alt="">
+              <h2 class="text-2xl font-bold">DevBoard</h2>
+                </div>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1">
+                <div class="mr-4 flex">
+                    <img class="w-5" src="assets/checkbox.png" alt="">
+                
+                <h4 id="hedar-text" class="text-2xl font-blod">23</h4>
+                </div>
+                <img id="thime" class="w-5" src="assets/theme-btn.png" alt="">
+                </li>
+              </ul>
+            </div>
+          </div>
+    </header>
+
+  
+      
+      <main class="mt-5 container bg-cli mx-auto">
+        <div class="flex gap-3 bg-cli">
+        <div class="w-[80%] bg-white shadow-md rounded-lg">
+          
+        <section class="mt-10 mx-5">
+          <div class="grid grid-cols-4 gap-3">
+            <div class="rounded-xl flex p-6 gap-4 bg-cli items-center justify-center">
+                <div>
+                  <img class="w-5" src="assets/checkbox.png" alt="">
+                </div>
+                <div>
+                  <p>Task Assigned</p>
+                  <h2 id="Assigned" class="text-2xl font bold">06</h2>
+                </div>
+                  </div>
+                 
+                    <div id="sectionss" class="bg-gradient-to-r from col-span-2 rounded-lg flex p-6 bg-blue-800 gap-4 items-center justify-center">
+                      <div>
+                        <img class="w-12" src="assets/board.png" alt="">
+                      </div>
+                      <div>
+                        <p class="text-white">Discover Something New Today!</p>
+                        
+                      </div>
+                        </div>
+                  
+                      <div class=" rounded-lg flex p-6 gap-4 bg-cli items-center justify-center">
+                        <div>
+                          <img class="w-5" src="assets/calender.png" alt="">
+                        </div>
+                        <div>
+                          
+                            <span id="update date"></spa>
+                        </div>
+                          </div>
+                  
+        </div>
+  
+        </section>
+<section>
+  <div class="grid grid-cols-3 gap-3">
+    <div id="section" class="w-64 h-64 bg-cli mt-10 rounded-md">
+      <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">ShopEase</p>
+      <h2 class="text-xl font-bold mx-4 mb-3">Fix Mobile Button Issue </h2>
+      <div class="w-50 h-20 text-gray-400  flex p-4 gap-4 bg-white mx-4 rounded-lg">
+          <p class="text-sm">Debug using Chrome DevTools, check for</p>
+            </div>
+            <div class="flex gap-3">
+            <div>
+              <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+            <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+            </div>
+            <div>
+              <button id="btn-complit" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+            </div>
+            </div>
+  </div>
+  <div class="w-64 h-64 bg-cli mt-10 gap-3 rounded-md">
+    <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">Glassdoar</p>
+    <h2 class="text-xl font-bold mx-4 mb-3">Add Dark Mode</h2>
+    <div class="w-50 h-20 text-gray-400 flex p-4 gap-4 rounded-lg bg-white mx-4">
+        <p class="text-sm">Debug using Chrome DevTools, check for</p>
+          </div>
+          <div class="flex gap-3">
+          <div>
+            <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+          <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+          </div>
+          <div>
+            <button id="btn-com" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+          </div>
+          </div>
+
+
+</div>
+<div class="w-64 h-64 bg-cli mt-10 rounded-md">
+  <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">CloudSync</p>
+  <h2 class="text-xl font-bold mx-4 mb-3">Optimize  Home page </h2>
+  <div class="w-50 h-20 text-gray-400 flex p-4 gap-4 rounded-lg bg-white mx-4">
+      <p class="text-sm">Debug using Chrome DevTools, check for</p>
+        </div>
+        <div class="flex gap-3">
+        <div>
+          <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+        <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+        </div>
+        <div>
+          <button id="btn-comp" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+        </div>
+        </div>
+
+
+</div>
+  </div>
+  <div class="grid grid-cols-3">
+    <div class="w-64 h-64 bg-cli mt-10 gap-3 rounded-md">
+      <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">Meta</p>
+      <h2 class="text-xl font-bold mx-4 mb-3">Add new emoji 🤲 </h2>
+      <div class="w-50 h-20 text-gray-400 flex p-4 gap-4 rounded-lg bg-white mx-4">
+          <p class="text-sm">Debug using Chrome DevTools, check for</p>
+            </div>
+            <div class="flex gap-3">
+            <div>
+              <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+            <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+            </div>
+            <div>
+              <button id="btn-compl" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+            </div>
+            </div>
+
+
+  </div>
+  <div class="w-64 gap-3 h-64 bg-cli mt-10 rounded-md">
+    <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">SwiftPay</p>
+    <h2 class="text-xl font-bold mx-4 mb-3">Integrate OpenAI API  </h2>
+    <div class="w-50 h-20 text-gray-400 flex p-4 gap-4 rounded-lg bg-white mx-4">
+        <p class="text-sm">Debug using Chrome DevTools, check for</p>
+          </div>
+          <div class="flex gap-3">
+          <div>
+            <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+          <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+          </div>
+          <div>
+ <button id="btn-compli" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+          </div>
+          </div>
+
+
+</div>
+<div class="w-64 gap-3 h-64 bg-cli mt-10 rounded-md">
+  <p class="w-18 text-sm rounded-lg  h-8 shadow-2xl bg-white p-2 mx-4 mt-3">Glassdoar</p>
+  <h2 class="text-xl font-bold mx-4 mb-3">Improve Job searching  </h2>
+  <div class="w-50 h-20 text-gray-400 flex p-4 gap-4 rounded-lg bg-white mx-4">
+      <p class="text-sm">Debug using Chrome DevTools, check for</p>
+        </div>
+        <div class="flex gap-3">
+        <div>
+          <h6 class="text-sm mx-4 mt-3 ">Deadline</h6>
+        <h3 class="text-sm font-bold mx-4">21 March 2025</h3>
+        </div>
+        <div>
+ <button id="btn-complis" class="btn bg-blue-800 text-white p-4 mt-3">Completed</button>
+        </div>
+        </div>
+
+
+</div>
+  </div>
+</section>
+        </div>
+<div class=" w-[20%] bg-white shadow-sm rounded-lg">
+  <section id="container">
+    <div class="flex gap-3 items-center justify-center mt-5">
+      <div class="">
+        <img src="assets/activity.png" alt="">
+        
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">Activity Log</h3>
+        
+      </div>
+    </div>
+    <div class="justify-center flex mt-3">
+      <button id="clear" class="btn  bg-blue-800 text-white p-4">Clear History</button>
+    </div>
+    <div id="complated">
+
+    </div>
+  </section>
+</div>
+</div>
+    </main>
+    <script src="sprict/date.js"></script>
+    <script src="sprict/sprict.js"></script>
+    <script src="sprict/togol.js"></script>
+    <script src="sprict/loging.js"></script>
+    
+</body>
+</html>

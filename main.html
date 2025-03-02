@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            cli: '#F4F7FF',
+            
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="max-w-screen-lg max-h-screen mx-auto bg-cli">
+    <div class="navbar bg-base-100 shadow-sm">
+        <div class="flex-1">
+          <h3 class="text-2xl font-bold">DevBord</h3>
+        </div>
+        <div class="justify-end text-end">
+            <button id="btn-back" class="btn bg-blue-800 text-white p-4 mt-3">back to desh</button>
+        </div>
+        
+        </div>
+        <h1 class="text-2xl font-bold justify-center text-center mt-5 mb-5">blogs</h1>
+        
+             <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+              <h2 class="text-2xl font-bold ">Question-1: What are the different ways to select an element in the DOM?</h2>
+               </div>
+               <div class="navbar shadow-lg mb-5 rounded-lg bg-white">
+                <p class="text-xl text-gray-700">there are different ways to select in Dom.Example: 1/class selector, 2/id selector, 3/tag name, 4/Query selector</p>
+                 </div>
+             <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                <h2 class="text-2xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h2>
+                 </div>
+                 <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                    <h2 class="text-xl text-gray-700">When we use InnerHTML it's include full html structure, innerText take only text content of an element, textContent take all text content including hidden elements</h2>
+                     </div>
+                     <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                        <h2 class="text-2xl font-bold">Question-3: What is event delegation in the DOM?  </h2>
+                         </div>
+                         <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                          <p class="text-gray-700">Event delegation হল JavaScript-এর একটি কৌশল যেখানে parent element-এর উপর event listener সেট করা হয়, যাতে তার child elements-গুলোর event handle করা যায়। এটি বিশেষভাবে কার্যকর যখন dynamicভাবে element তৈরি হয় বা প্রচুর child element থাকে।</p>
+                           </div>
+                         <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                            <h2 class="text-2xl font-bold">Question-4: What is event bubbling in the DOM?</h2>
+                         </div>
+                                 <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                                  <p class="text-gray-700">বাবলিং হলো তার তারগেট থেকে উপরের দিকে উটে যেমন তার বাবা দাদা দাদার-বাবা ইত্যাদি এই ভাবে উপরের দিকে উটতে থাকে তবে বাবলিং থামানো যায়</p>
+                                   </div>
+                                   <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                                    <h2 class="text-2xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+                                 </div>
+                                 <div class="navbar bg-base-100 shadow-sm mb-5 rounded-lg">
+                                  <p class="text-gray-700">When we want create a new html element, we will be use document.createElement() method, or create new text content will be use innerText or textContent create both will be use innerHTML, when we will create dynamically class name thats will use classList.add() method or when remove class thats will use classList.remove() method, when we will remove element will be use removeChild() method.</p>
+                                   </div>
+                                 <script src="sprict/tol.js"></script>
+</body>
+</html>
